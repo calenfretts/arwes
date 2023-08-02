@@ -126,17 +126,17 @@ const ClientApp = (props: ClientAppProps): ReactElement => {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-          <title>Arwes</title>
-          <meta name="description" content="Futuristic Sci-Fi UI Web Framework." />
-          <meta property="og:title" content="Arwes" />
-          <meta property="og:site_name" content="Arwes" />
-          <meta property="og:description" content="Futuristic Sci-Fi UI Web Framework." />
-          <meta property="og:image" content="https://next.arwes.dev/arwes.jpg" />
-          <meta property="og:url" content="https://next.arwes.dev" />
+          <title>Calen Fretts</title>
+          <meta name="description" content="full stack engineer" />
+          <meta property="og:title" content="Calen Fretts" />
+          <meta property="og:site_name" content="Calen Fretts" />
+          <meta property="og:description" content="full stack engineer" />
+          <meta property="og:image" content="https://aws.calenfretts.com/calenfretts-logotype.png" />
+          <meta property="og:url" content="https://aws.calenfretts.com" />
           <meta property="og:type" content="website" />
-          <meta name="twitter:image:alt" content="Arwes" />
+          <meta name="twitter:image:alt" content="Calen Fretts" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@arwesjs" />
+          <meta name="twitter:site" content="@CalenFretts" />
         </Head>
 
         <Animator combine manager='stagger'>

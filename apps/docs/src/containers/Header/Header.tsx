@@ -8,14 +8,13 @@ import {
   CollageFrame,
   DashboardSpeed,
   GitHub,
-  Discord,
   Twitter,
   Keyframes,
   RemoveKeyframes,
   SoundHigh,
   SoundOff,
   Menu as MenuIcon,
-  Heart
+  OrthogonalView
 } from 'iconoir-react';
 import { cx, AnimatorGeneralProvider, Animator, aa, aaVisibility, aaOpacity } from '@arwes/react';
 
@@ -141,28 +140,21 @@ const Header = (props: HeaderProps): ReactElement => {
             <Menu className={hiddenLGDown}>
               <Animator>
                 <MenuItem className={classes.menuItem} animated={rightItemAnimation}>
-                  <a href='https://github.com/sponsors/romelperez' target='sponsor' title='Sponsor'>
-                    <Heart />
+                  <a href='https://linktr.ee/calenfretts' target='portfolio' title='Portfolio'>
+                    <OrthogonalView />
                   </a>
                 </MenuItem>
               </Animator>
               <Animator>
                 <MenuItem className={classes.menuItem} animated={rightItemAnimation}>
-                  <a href='https://github.com/arwes/arwes' target='github' title='Go to GitHub'>
+                  <a href='https://github.com/calenfretts' target='github' title='Go to GitHub'>
                     <GitHub />
                   </a>
                 </MenuItem>
               </Animator>
               <Animator>
                 <MenuItem className={classes.menuItem} animated={rightItemAnimation}>
-                  <a href='https://discord.gg/s5sbTkw' target='discord' title='Go to Discord'>
-                    <Discord />
-                  </a>
-                </MenuItem>
-              </Animator>
-              <Animator>
-                <MenuItem className={classes.menuItem} animated={rightItemAnimation}>
-                  <a href='https://twitter.com/arwesjs' target='twitter' title='Go to Twitter'>
+                  <a href='https://twitter.com/CalenFretts' target='twitter' title='Go to Twitter'>
                     <Twitter />
                   </a>
                 </MenuItem>
