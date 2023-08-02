@@ -32,12 +32,12 @@ const Background = (props: BackgroundProps): ReactElement => {
             }}
             animated={[aa('opacity', 0.8, 1), aa('scale', 1.05, 1)]}
           >
-            <source media='(min-width:1280px)' srcSet='/assets/images/background-large.webp' type='image/webp' />
-            <source media='(min-width:1280px)' srcSet='/assets/images/background-large.jpg' type='image/jpeg' />
-            <source media='(min-width:768px)' srcSet='/assets/images/background-medium.webp' type='image/webp' />
-            <source media='(min-width:768px)' srcSet='/assets/images/background-medium.jpg' type='image/jpeg' />
-            <source media='(max-width:767px)' srcSet='/assets/images/background-small.webp' type='image/webp' />
-            <img className={classes.layer1Image} src='/assets/images/background-small.jpg' alt='Background' />
+            <source media='(min-width:1280px)' srcSet='/assets/images/calenfretts-glitched-background-large.webp' type='image/webp' />
+            <source media='(min-width:1280px)' srcSet='/assets/images/calenfretts-glitched-background-large.jpg' type='image/jpeg' />
+            <source media='(min-width:768px)' srcSet='/assets/images/calenfretts-glitched-background-medium.webp' type='image/webp' />
+            <source media='(min-width:768px)' srcSet='/assets/images/calenfretts-glitched-background-medium.jpg' type='image/jpeg' />
+            <source media='(max-width:767px)' srcSet='/assets/images/calenfretts-glitched-background-small.webp' type='image/webp' />
+            <img className={classes.layer1Image} src='/assets/images/calenfretts-glitched-background-small.jpg' alt='Background' />
           </Animated>
         </Animator>
 

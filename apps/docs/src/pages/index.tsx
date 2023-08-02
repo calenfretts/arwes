@@ -1,6 +1,6 @@
 import { type ReactElement } from 'react';
 import Link from 'next/link';
-import { Page, Codepen, CollageFrame, DashboardSpeed } from 'iconoir-react';
+import { Codepen, CollageFrame } from 'iconoir-react';
 import { Animator, Animated, aaVisibility, aa, BleepsOnAnimator } from '@arwes/react';
 import type { BleepNames } from '@app/types';
 import { Button } from '@app/ui';
@@ -83,34 +83,26 @@ const PageIndex = (): ReactElement => {
                 <img
                   role='heading'
                   className='logo'
-                  src='/logotype.png'
-                  alt='Arwes Project'
-                  title='Arwes Project'
+                  src='/calenfretts-logotype.png'
+                  alt='Calen Fretts'
+                  title='Calen Fretts'
                 />
               </Animated>
             </Animator>
 
             <Animator>
               <Animated as='h2' className='subtitle' animated={[aaVisibility(), aa('scaleX', 1, 1)]}>
-                Futuristic Sci-Fi UI Web Framework
+                full stack engineer
               </Animated>
             </Animator>
 
             <Animator>
               <nav className='nav'>
-                <Animated className='nav-item' animated={[aaVisibility(), aa('x', -24, 0)]}>
-                  <Link href='/docs'>
-                    <Button size='small' tabIndex={-1} title='Go to Documentation'>
-                      <Page className={hiddenSMDown} />
-                      <span>Docs</span>
-                    </Button>
-                  </Link>
-                </Animated>
                 <Animated className='nav-item' animated={[aaVisibility(), aa('x', -12, 0)]}>
-                  <Link href='/samples'>
-                    <Button size='small' tabIndex={-1} title='Go to Samples'>
+                  <Link href='https://linktr.ee/calenfretts'>
+                    <Button size='small' tabIndex={-1} title='Go to Portfolio'>
                       <CollageFrame className={hiddenSMDown} />
-                      <span>Samples</span>
+                      <span>Portfolio</span>
                     </Button>
                   </Link>
                 </Animated>
@@ -119,14 +111,6 @@ const PageIndex = (): ReactElement => {
                     <Button size='small' tabIndex={-1} title='Go to Playground'>
                       <Codepen className={hiddenSMDown} />
                       <span>Play</span>
-                    </Button>
-                  </a>
-                </Animated>
-                <Animated className='nav-item' animated={[aaVisibility(), aa('x', 24, 0)]}>
-                  <a href='/perf'>
-                    <Button size='small' tabIndex={-1} title='Go to Performance'>
-                      <DashboardSpeed className={hiddenSMDown} />
-                      <span>Perf</span>
                     </Button>
                   </a>
                 </Animated>
