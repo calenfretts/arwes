@@ -32,14 +32,14 @@ const Version = (props: VersionProps): ReactElement => {
       animated={animated}
       href={
         isNext
-          ? 'https://github.com/arwes/arwes/tree/next'
+          ? 'https://github.com/calenfretts/arwes/tree/calenfretts.com'
           : `https://github.com/arwes/arwes/releases/tag/v${lernaSettings.version}`
       }
       target='github'
-      title={`Version ${isNext ? '@next' : lernaSettings.version} deployed at ${date.toUTCString()}`}
+      title={`Version ${isNext ? '@calenfretts.com' : lernaSettings.version} deployed at ${date.toUTCString()}`}
       onClick={() => bleeps.click?.play()}
     >
-      {prefix}{isNext ? 'v@next' : `v${lernaSettings.version}`}{sufix}
+      {prefix}{isNext ? 'v@calenfretts.com' : `v${lernaSettings.version}`}{sufix}
     </Animated>
   );
 };

@@ -108,9 +108,9 @@ const PageIndex = (): ReactElement => {
                 </Animated>
                 <Animated className='nav-item' animated={[aaVisibility(), aa('x', 12, 0)]}>
                   <a href='/play'>
-                    <Button size='small' tabIndex={-1} title='Go to Playground'>
+                    <Button size='small' tabIndex={-1} title='Go to Sandbox'>
                       <Codepen className={hiddenSMDown} />
-                      <span>Play</span>
+                      <span>Sandbox</span>
                     </Button>
                   </a>
                 </Animated>
